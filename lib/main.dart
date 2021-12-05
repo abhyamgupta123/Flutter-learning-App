@@ -16,35 +16,41 @@ class test extends StatelessWidget {
         backgroundColor: Colors.red[400],
       ),
 
-
-      body: Row(
-        children: [
-          Expanded(
-            flex: 3,
-            child: Container(
-                color: Colors.grey[500],
-                padding: EdgeInsets.all(30),
-                child: Text("1"),
-            ),
-          ),
-          Expanded(
-            flex: 2,
-            child: Container(
-                color: Colors.blue[500],
-                padding: EdgeInsets.all(30),
-                child: Text("2"),
-            ),
-          ),
-          Expanded(
-            flex: 1,
-            child: Container(
-              color: Colors.amber[500],
-              padding: EdgeInsets.all(30),
-              child: Text("3"),
-              ),
-          ),
-        ],
+      body: Center(
+        child: Image(
+          image: AssetImage("assets/space.jpg"),
+        ),
       ),
+
+
+      // body: Row(
+      //   children: [
+      //     Expanded(
+      //       flex: 3,
+      //       child: Container(
+      //           color: Colors.grey[500],
+      //           padding: EdgeInsets.all(30),
+      //           child: Text("1"),
+      //       ),
+      //     ),
+      //     Expanded(
+      //       flex: 2,
+      //       child: Container(
+      //           color: Colors.blue[500],
+      //           padding: EdgeInsets.all(30),
+      //           child: Text("2"),
+      //       ),
+      //     ),
+      //     Expanded(
+      //       flex: 1,
+      //       child: Container(
+      //         color: Colors.amber[500],
+      //         padding: EdgeInsets.all(30),
+      //         child: Text("3"),
+      //         ),
+      //     ),
+      //   ],
+      // ),
 
 
       // body: Column(
